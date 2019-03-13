@@ -1,0 +1,9 @@
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.Entities\bin\Debug\netstandard2.0\SignalR.Entities.deps.json
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.Entities\bin\Debug\netstandard2.0\SignalR.Entities.dll
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.Entities\bin\Debug\netstandard2.0\SignalR.Entities.pdb
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.csprojAssemblyReference.cache
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.csproj.CoreCompileInputs.cache
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.AssemblyInfoInputs.cache
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.AssemblyInfo.cs
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.dll
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.pdb

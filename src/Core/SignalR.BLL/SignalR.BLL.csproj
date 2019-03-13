@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Persistence\SignalR.DAL\SignalR.DAL.csproj" />
+    <ProjectReference Include="..\SignalR.Entities\SignalR.Entities.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\SignalR.Services\SignalR.Services.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

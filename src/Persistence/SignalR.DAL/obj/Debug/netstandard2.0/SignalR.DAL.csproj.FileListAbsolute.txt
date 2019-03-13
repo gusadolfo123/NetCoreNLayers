@@ -1,0 +1,16 @@
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.DAL.deps.json
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.DAL.dll
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.DAL.pdb
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.Entities.dll
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.Helpers.dll
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.Services.dll
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.Entities.pdb
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.Helpers.pdb
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.Services.pdb
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.csprojAssemblyReference.cache
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.csproj.CoreCompileInputs.cache
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.AssemblyInfoInputs.cache
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.AssemblyInfo.cs
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.csproj.CopyComplete
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.dll
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.pdb

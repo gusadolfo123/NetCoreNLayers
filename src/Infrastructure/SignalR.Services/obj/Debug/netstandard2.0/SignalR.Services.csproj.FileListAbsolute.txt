@@ -1,0 +1,12 @@
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\bin\Debug\netstandard2.0\SignalR.Services.deps.json
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\bin\Debug\netstandard2.0\SignalR.Services.dll
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\bin\Debug\netstandard2.0\SignalR.Services.pdb
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\bin\Debug\netstandard2.0\SignalR.Entities.dll
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\bin\Debug\netstandard2.0\SignalR.Entities.pdb
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.csprojAssemblyReference.cache
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.csproj.CoreCompileInputs.cache
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.AssemblyInfoInputs.cache
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.AssemblyInfo.cs
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.csproj.CopyComplete
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.dll
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.pdb

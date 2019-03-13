@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\SignalR.Entities\SignalR.Entities.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\SignalR.Services\SignalR.Services.csproj" />
+    <ProjectReference Include="..\..\Persistence\SignalR.DAL\SignalR.DAL.csproj" />
+    <ProjectReference Include="..\..\Common\SignalR.Helpers\SignalR.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>
