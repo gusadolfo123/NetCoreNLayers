@@ -3152,11 +3152,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\Src\\Persistence\\SignalR.DAL\\SignalR.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Persistence\\SignalR.DAL\\SignalR.DAL.csproj",
       "projectName": "SignalR.DAL",
-      "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\Src\\Persistence\\SignalR.DAL\\SignalR.DAL.csproj",
+      "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Persistence\\SignalR.DAL\\SignalR.DAL.csproj",
       "packagesPath": "C:\\Users\\morenoga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\Src\\Persistence\\SignalR.DAL\\obj\\",
+      "outputPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Persistence\\SignalR.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3173,14 +3173,14 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\Src\\Common\\SignalR.Helpers\\SignalR.Helpers.csproj": {
-              "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\Src\\Common\\SignalR.Helpers\\SignalR.Helpers.csproj"
+            "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Common\\SignalR.Helpers\\SignalR.Helpers.csproj": {
+              "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Common\\SignalR.Helpers\\SignalR.Helpers.csproj"
             },
-            "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\Src\\Core\\SignalR.Entities\\SignalR.Entities.csproj": {
-              "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\Src\\Core\\SignalR.Entities\\SignalR.Entities.csproj"
+            "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Core\\SignalR.Entities\\SignalR.Entities.csproj": {
+              "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Core\\SignalR.Entities\\SignalR.Entities.csproj"
             },
-            "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\Src\\Infrastructure\\SignalR.Services\\SignalR.Services.csproj": {
-              "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\Src\\Infrastructure\\SignalR.Services\\SignalR.Services.csproj"
+            "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Infrastructure\\SignalR.Services\\SignalR.Services.csproj": {
+              "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Infrastructure\\SignalR.Services\\SignalR.Services.csproj"
             }
           }
         }

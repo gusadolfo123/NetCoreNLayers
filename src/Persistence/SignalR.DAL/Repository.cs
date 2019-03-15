@@ -31,10 +31,10 @@ namespace SignalR.DAL
         {
             return await _Context.Set<T>().FindAsync(id);
         }
-        public async Task<T> Add(T entity)
+        public bool Add(T entity)
         {
-            var result = await _Context.AddAsync(entity);
-            return result.Entity;
+            var result = _Context.Add(entity);
+            return result.State == EntityState.Added;
         }
         public bool Delete(int id)
         {
@@ -59,7 +59,7 @@ namespace SignalR.DAL
                 }
             }
 
-            IEnumerable<T> list = await query.Where(queryParameters.Where).ToListAsync();
+            var list = await query.Where(queryParameters.Where).ToListAsync();
             return list;
         }
 

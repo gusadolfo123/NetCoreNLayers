@@ -22,7 +22,8 @@ namespace SignalR.WebApi.Controllers
             {
                 ProductName = "Mouse Razer",
                 UnitPrice = 17000,
-                UnitsInStock = 20
+                UnitsInStock = 20,
+                CategoryID = 50
             });
             repository.SaveChanges();
         }
@@ -47,9 +48,9 @@ namespace SignalR.WebApi.Controllers
         [HttpPost]
         public Product Post([FromBody] Product product)
         {
-            var result = repository.Add(product).Result;
+            var result = repository.Add(product);
             repository.SaveChanges();
-            return result;
+            return product;
         }
 
         // PUT api/values/5

@@ -29,6 +29,17 @@ namespace SignalR.DAL
                 .HasMaxLength(200)
                 .IsRequired();
 
+            modelBuilder.Entity<Product>()
+                .Property(p => p.CategoryID)
+                .IsRequired();
+
+            modelBuilder.Entity<Product>()
+                .HasOne(p => p.Category)
+                .WithMany(c => c.Products)
+                .HasForeignKey("CategoryID")
+                .HasConstraintName("FK_Product_Category");
+
+
         }
     }
 }
