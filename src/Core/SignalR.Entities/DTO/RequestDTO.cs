@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace SignalR.Entities
+namespace SignalR.Entities.DTO
 {
-    public class Request
+    public class RequestDTO
     {
         public int RequestID { get; set; }
         public string Title { get; set; }

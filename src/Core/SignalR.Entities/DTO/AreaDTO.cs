@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 
-namespace SignalR.Entities
+namespace SignalR.Entities.DTO
 {
-    public class Area
+    public class AreaDTO
     {
         public int AreaID { get; set; }
         public string Name { get; set; }
