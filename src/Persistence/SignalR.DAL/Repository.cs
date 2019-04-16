@@ -18,14 +18,10 @@ namespace SignalR.DAL
         protected readonly DbContext _Context;
         protected readonly bool IsUnitOfWork;
 
-        public Repository(DbContext context = null, bool isUnitOfWork = false)
+        public Repository(bool isUnitOfWork = false)
         {
-            this._Context = context;
+            this._Context = new SignalRContext();
             this.IsUnitOfWork = isUnitOfWork;
-        }
-
-        public Repository() : this(new SignalRContext(), false)
-        {
         }
 
         public async Task<IEnumerable<T>> GetAll()
@@ -52,6 +48,7 @@ namespace SignalR.DAL
         }
         public async Task<IEnumerable<T>> GetByFilter(QueryParameters<T> queryParameters)
         {
+            List<T> list = null;
             var query = _Context.Set<T>().AsQueryable();
             if (queryParameters.Includes != null)
             {
@@ -61,7 +58,11 @@ namespace SignalR.DAL
                 }
             }
 
-            var list = await query.Where(queryParameters.Where).ToListAsync();
+            if (queryParameters.Where != null)
+                list = await query.Where(queryParameters.Where).ToListAsync();
+            else
+                list = await query.ToListAsync();
+
             return list;
         }
 

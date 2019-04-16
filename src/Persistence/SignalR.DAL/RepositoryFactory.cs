@@ -9,7 +9,7 @@
     {
         public static IRepository<T> GetRepository(bool isUnitOfWork = false)
         {
-            return new Repository<T>(isUnitOfWork: isUnitOfWork);
+            return new Repository<T>(isUnitOfWork);
         }
     }
 }

@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.2.3" />
     <PackageReference Include="Microsoft.EntityFrameWorkCore.SqlServer" Version="2.2.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging.EventLog" Version="2.2.0" />
   </ItemGroup>
 
   <PropertyGroup>

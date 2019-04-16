@@ -1,6 +1,9 @@
 using System;
 using SignalR.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.DependencyInjection;
+using SignalR.Helpers;
 
 namespace SignalR.DAL
 {
@@ -16,10 +19,26 @@ namespace SignalR.DAL
         public DbSet<User> Users { get; set; }
         #endregion
 
+
+        // Propiedad para log solo mostrara mensajes segun lo indicado
+        public static readonly ILoggerFactory loggerFactory =
+            new ServiceCollection().AddLogging(builder =>
+                builder.AddEventLog().AddFilter(
+                    (Category, Level) => Level == LogLevel.Information && Category == DbLoggerCategory.Database.Command.Name
+                )
+            ).BuildServiceProvider().GetService<ILoggerFactory>();
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            var connectionString = HelperConfiguration.GetAppConfiguration().ConnectionString;
+
             // configuracion base de datos
-            optionsBuilder.UseInMemoryDatabase("DBPrueba");
+            optionsBuilder
+                // .UseSqlServer(connectionString)
+                .UseInMemoryDatabase("DBPrueba")
+                .UseLoggerFactory(loggerFactory)
+                // .UseQueryTrackingBehavior(QueryTrackingBehavior.TrackAll)
+                .EnableSensitiveDataLogging();
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

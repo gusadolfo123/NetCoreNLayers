@@ -13,6 +13,7 @@
                                                     .AddJsonFile(configurationFile, optional: true)
                                                     .Build();
 
+
             var result = configuration.Get<AppConfiguration>();
 
             return result;

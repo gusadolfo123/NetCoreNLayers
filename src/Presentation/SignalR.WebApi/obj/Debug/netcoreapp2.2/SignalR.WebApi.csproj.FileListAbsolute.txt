@@ -21,3 +21,6 @@ C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Presentation\SignalR.WebAp
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.DAL.pdb
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.Helpers.pdb
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Presentation\SignalR.WebApi\obj\Debug\netcoreapp2.2\SignalR.WebApi.csproj.CopyComplete
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.BLL.dll
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.BLL.pdb
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\App.json
