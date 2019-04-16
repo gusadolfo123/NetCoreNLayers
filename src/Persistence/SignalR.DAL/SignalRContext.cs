@@ -6,7 +6,7 @@ namespace SignalR.DAL
 {
     public class SignalRContext : DbContext
     {
-
+        #region Propiedades
         public DbSet<RequestType> RequestTypes { get; set; }
         public DbSet<Request> Requests { get; set; }
         public DbSet<File> Files { get; set; }
@@ -14,13 +14,16 @@ namespace SignalR.DAL
         public DbSet<Comment> Comments { get; set; }
         public DbSet<CommentType> CommentType { get; set; }
         public DbSet<User> Users { get; set; }
+        #endregion
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            // configuracion base de datos
             optionsBuilder.UseInMemoryDatabase("DBPrueba");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            #region Configuracion Llaves Primarias
             modelBuilder.Entity<User>().HasKey(c => c.UserID);
             modelBuilder.Entity<CommentType>().HasKey(p => p.CommentTypeID);
             modelBuilder.Entity<Comment>().HasKey(p => p.CommentID);
@@ -28,7 +31,9 @@ namespace SignalR.DAL
             modelBuilder.Entity<File>().HasKey(p => p.FileID);
             modelBuilder.Entity<Request>().HasKey(p => p.RequestID);
             modelBuilder.Entity<RequestType>().HasKey(p => p.RequestTypeID);
+            #endregion
 
+            #region Configuracion propiedades 
             modelBuilder.Entity<Request>().Property(p => p.Title).HasMaxLength(120).IsRequired();
             modelBuilder.Entity<Request>().Property(p => p.Description).HasMaxLength(8000).IsRequired();
             modelBuilder.Entity<Request>().Property(c => c.CreationDate).HasDefaultValueSql("GETDATE()");
@@ -57,7 +62,9 @@ namespace SignalR.DAL
             modelBuilder.Entity<Area>().Property(u => u.Name).HasMaxLength(60).IsRequired();
             modelBuilder.Entity<Area>().Property(u => u.Description).HasMaxLength(8000).IsRequired();
             modelBuilder.Entity<Area>().Property(u => u.Code).HasMaxLength(30).IsRequired();
+            #endregion
 
+            #region Configuracion Llaves Foraneas
             modelBuilder.Entity<Request>()
                 .HasOne(p => p.RequestType)
                 .WithMany(c => c.Requests)
@@ -99,6 +106,7 @@ namespace SignalR.DAL
                 .WithMany(p => p.Comments)
                 .HasForeignKey(p => p.RequestID)
                 .HasConstraintName("FK_COMMENT_REQUEST_01");
+            #endregion
         }
     }
 }

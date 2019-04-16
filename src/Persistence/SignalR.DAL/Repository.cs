@@ -1,25 +1,30 @@
-using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using SignalR.Services;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Threading.Tasks;
-using SignalR.Entities;
-
 namespace SignalR.DAL
 {
-    public class Repository<T> : IRepository<T> where T : class
+    using System;
+    using System.Collections.Generic;
+    using Microsoft.EntityFrameworkCore;
+    using SignalR.Services;
+    using System.Linq;
+    using System.Linq.Expressions;
+    using System.Threading.Tasks;
+    using SignalR.Entities;
+
+    /// <summary>
+    /// Implementacion Servicio Repositorio para manejo de acceso a datos mediante EntityFramework
+    /// </summary>
+    /// <typeparam name="T">Tipo de entidad a la cual realizar las operaciones</typeparam>
+    public class Repository<T> : IRepository<T> where T : class, IDisposable
     {
-
         protected readonly DbContext _Context;
+        protected readonly bool IsUnitOfWork;
 
-        public Repository(DbContext context)
+        public Repository(DbContext context, bool isUnitOfWork)
         {
             this._Context = context;
+            this.IsUnitOfWork = isUnitOfWork;
         }
 
-        public Repository() : this(new SignalRContext())
+        public Repository() : this(new SignalRContext(), false)
         {
         }
 
@@ -33,20 +38,19 @@ namespace SignalR.DAL
         }
         public bool Add(T entity)
         {
-            var result = _Context.Add(entity);
-            return result.State == EntityState.Added;
+            _Context.Add(entity);
+            return Save();
         }
         public bool Delete(int id)
         {
             var product = _Context.Set<T>().Find(id);
             var result = _Context.Set<T>().Remove(product);
-            return result.State == EntityState.Deleted;
+            return Save();
         }
         public bool Update(T entity)
         {
             var result = _Context.Set<T>().Update(entity);
-
-            return result.State == EntityState.Modified;
+            return Save();
         }
         public async Task<IEnumerable<T>> GetByFilter(QueryParameters<T> queryParameters)
         {
@@ -66,8 +70,36 @@ namespace SignalR.DAL
         public int SaveChanges()
         {
             var result = 0;
-            result = _Context.SaveChanges();
+            if (_Context != null)
+            {
+                try
+                {
+                    result = _Context.SaveChanges();
+                    // se implementa log personalizado
+                    // LogHelper.Log(LogTarget.EventLog, _context.LogMessages);
+                }
+                catch (Exception ex)
+                {
+                    throw;
+                }
+            }
             return result;
+        }
+
+        private bool Save() 
+        {
+            int changes = 0;
+            if (!IsUnitOfWork)
+            {
+                changes = SaveChanges();
+            }
+
+            return changes == 1;
+        }
+
+        public void Dispose()
+        {
+            _Context.Dispose();
         }
     }
 }

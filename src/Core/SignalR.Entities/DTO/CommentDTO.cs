@@ -1,7 +1,7 @@
-using System;
-
 namespace SignalR.Entities.DTO
 {
+    using System;
+
     public class CommentDTO
     {
         public int CommentID { get; set; }

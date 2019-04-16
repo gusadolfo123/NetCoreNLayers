@@ -1,7 +1,7 @@
-using System.Collections.Generic;
-
 namespace SignalR.Entities
 {
+    using System.Collections.Generic;
+
     public class Area
     {
         public int AreaID { get; set; }

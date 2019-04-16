@@ -1,8 +1,8 @@
-using System;
-using System.Collections.Generic;
-
 namespace SignalR.Entities
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Request
     {
         public int RequestID { get; set; }

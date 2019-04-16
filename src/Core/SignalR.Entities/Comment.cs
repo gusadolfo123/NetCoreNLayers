@@ -1,7 +1,7 @@
-using System;
-
 namespace SignalR.Entities
 {
+    using System;
+
     public class Comment
     {
         public int CommentID { get; set; }

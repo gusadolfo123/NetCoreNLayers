@@ -1,7 +1,7 @@
-using System.Collections.Generic;
-
 namespace SignalR.Entities.DTO
 {
+    using System.Collections.Generic;
+
     public class AreaDTO
     {
         public int AreaID { get; set; }

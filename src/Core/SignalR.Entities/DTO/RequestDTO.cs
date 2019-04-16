@@ -1,8 +1,8 @@
-using System;
-using System.Collections.Generic;
-
 namespace SignalR.Entities.DTO
 {
+    using System;
+    using System.Collections.Generic;
+    
     public class RequestDTO
     {
         public int RequestID { get; set; }

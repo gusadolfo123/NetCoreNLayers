@@ -1,7 +1,7 @@
-using System;
-
 namespace SignalR.Entities.DTO
 {
+    using System;
+
     public class FileDTO
     {
         public int FileID { get; set; }

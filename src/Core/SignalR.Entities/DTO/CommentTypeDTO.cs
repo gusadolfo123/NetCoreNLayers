@@ -1,8 +1,7 @@
-using System;
-using System.Collections.Generic;
-
 namespace SignalR.Entities.DTO
 {
+    using System.Collections.Generic;
+
     public class CommentTypeDTO
     {
         public int CommentTypeID { get; set; }
