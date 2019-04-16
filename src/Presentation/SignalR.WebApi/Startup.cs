@@ -39,8 +39,8 @@
             services.AddSingleton(typeof(IUserOperations), OperarionsFactory.GetUserOperations());
 
             // implementacion identity server 4
-            
-
+            services.AddIdentityServer()
+                .AddDeveloperSigningCredential();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,6 +58,9 @@
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            // uso del identity server 4
+            app.
 
         }
     }

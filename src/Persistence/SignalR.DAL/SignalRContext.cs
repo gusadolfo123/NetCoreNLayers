@@ -18,8 +18,7 @@ namespace SignalR.DAL
         public DbSet<CommentType> CommentType { get; set; }
         public DbSet<User> Users { get; set; }
         #endregion
-
-
+        
         // Propiedad para log solo mostrara mensajes segun lo indicado
         public static readonly ILoggerFactory loggerFactory =
             new ServiceCollection().AddLogging(builder =>
