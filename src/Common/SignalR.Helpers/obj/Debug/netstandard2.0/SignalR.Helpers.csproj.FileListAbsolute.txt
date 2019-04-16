@@ -1,9 +1,9 @@
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\bin\Debug\netstandard2.0\SignalR.Helpers.deps.json
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\bin\Debug\netstandard2.0\SignalR.Helpers.dll
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\bin\Debug\netstandard2.0\SignalR.Helpers.pdb
-C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.csprojAssemblyReference.cache
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.csproj.CoreCompileInputs.cache
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.AssemblyInfoInputs.cache
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.AssemblyInfo.cs
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.dll
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.pdb
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.csprojAssemblyReference.cache

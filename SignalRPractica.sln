@@ -7,27 +7,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1C022A0C-45C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{441215FC-609D-4752-B7F8-4643EA516CDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Helpers", "src\Common\SignalR.Helpers\SignalR.Helpers.csproj", "{FE307E8A-A567-4858-B1D9-C31956D24D11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR.Helpers", "src\Common\SignalR.Helpers\SignalR.Helpers.csproj", "{FE307E8A-A567-4858-B1D9-C31956D24D11}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{36B2DF3C-8081-4F4F-9EF6-976CC8AF3E2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.BLL", "src\Core\SignalR.BLL\SignalR.BLL.csproj", "{FC4D23D0-DFD3-4ACE-9D50-5C053A403FF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR.BLL", "src\Core\SignalR.BLL\SignalR.BLL.csproj", "{FC4D23D0-DFD3-4ACE-9D50-5C053A403FF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Entities", "src\Core\SignalR.Entities\SignalR.Entities.csproj", "{0D63F4CA-40E2-4FCC-91F5-E6BE4AE86F53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR.Entities", "src\Core\SignalR.Entities\SignalR.Entities.csproj", "{0D63F4CA-40E2-4FCC-91F5-E6BE4AE86F53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A218865A-5A95-4285-A90C-50C2AF0018E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Services", "src\Infrastructure\SignalR.Services\SignalR.Services.csproj", "{B834F20A-4452-4687-9491-E1D8BAA9D192}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR.Services", "src\Infrastructure\SignalR.Services\SignalR.Services.csproj", "{B834F20A-4452-4687-9491-E1D8BAA9D192}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{F8F0D8B9-D2D2-48B2-9D10-C17A179EF747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.DAL", "src\Persistence\SignalR.DAL\SignalR.DAL.csproj", "{BC20C63B-6F38-4F5B-BF7F-B53A4252C9DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR.DAL", "src\Persistence\SignalR.DAL\SignalR.DAL.csproj", "{BC20C63B-6F38-4F5B-BF7F-B53A4252C9DC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D65AC45F-E01D-4F23-A8C8-F209826CC068}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.AppWebCore", "src\Presentation\SignalR.AppWebCore\SignalR.AppWebCore.csproj", "{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.WebApi", "src\Presentation\SignalR.WebApi\SignalR.WebApi.csproj", "{DD97F4B9-FB12-4B59-8111-EDFA829F5783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR.WebApi", "src\Presentation\SignalR.WebApi\SignalR.WebApi.csproj", "{DD97F4B9-FB12-4B59-8111-EDFA829F5783}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,9 +35,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FE307E8A-A567-4858-B1D9-C31956D24D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -102,18 +97,6 @@ Global
 		{BC20C63B-6F38-4F5B-BF7F-B53A4252C9DC}.Release|x64.Build.0 = Release|Any CPU
 		{BC20C63B-6F38-4F5B-BF7F-B53A4252C9DC}.Release|x86.ActiveCfg = Release|Any CPU
 		{BC20C63B-6F38-4F5B-BF7F-B53A4252C9DC}.Release|x86.Build.0 = Release|Any CPU
-		{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078}.Debug|x64.Build.0 = Debug|Any CPU
-		{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078}.Debug|x86.Build.0 = Debug|Any CPU
-		{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078}.Release|Any CPU.Build.0 = Release|Any CPU
-		{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078}.Release|x64.ActiveCfg = Release|Any CPU
-		{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078}.Release|x64.Build.0 = Release|Any CPU
-		{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078}.Release|x86.ActiveCfg = Release|Any CPU
-		{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078}.Release|x86.Build.0 = Release|Any CPU
 		{DD97F4B9-FB12-4B59-8111-EDFA829F5783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DD97F4B9-FB12-4B59-8111-EDFA829F5783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD97F4B9-FB12-4B59-8111-EDFA829F5783}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -127,6 +110,9 @@ Global
 		{DD97F4B9-FB12-4B59-8111-EDFA829F5783}.Release|x86.ActiveCfg = Release|Any CPU
 		{DD97F4B9-FB12-4B59-8111-EDFA829F5783}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{441215FC-609D-4752-B7F8-4643EA516CDE} = {1C022A0C-45C1-4D22-B8FE-75CBFF89C3EC}
 		{FE307E8A-A567-4858-B1D9-C31956D24D11} = {441215FC-609D-4752-B7F8-4643EA516CDE}
@@ -138,7 +124,9 @@ Global
 		{F8F0D8B9-D2D2-48B2-9D10-C17A179EF747} = {1C022A0C-45C1-4D22-B8FE-75CBFF89C3EC}
 		{BC20C63B-6F38-4F5B-BF7F-B53A4252C9DC} = {F8F0D8B9-D2D2-48B2-9D10-C17A179EF747}
 		{D65AC45F-E01D-4F23-A8C8-F209826CC068} = {1C022A0C-45C1-4D22-B8FE-75CBFF89C3EC}
-		{25EA0A4F-ABE5-4C42-9BFD-C6B4D459B078} = {D65AC45F-E01D-4F23-A8C8-F209826CC068}
 		{DD97F4B9-FB12-4B59-8111-EDFA829F5783} = {D65AC45F-E01D-4F23-A8C8-F209826CC068}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E43287C2-5752-4398-BC8C-EF88D5862490}
 	EndGlobalSection
 EndGlobal

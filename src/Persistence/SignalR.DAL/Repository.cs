@@ -13,12 +13,12 @@ namespace SignalR.DAL
     /// Implementacion Servicio Repositorio para manejo de acceso a datos mediante EntityFramework
     /// </summary>
     /// <typeparam name="T">Tipo de entidad a la cual realizar las operaciones</typeparam>
-    public class Repository<T> : IRepository<T> where T : class, IDisposable
+    public class Repository<T> : IRepository<T> where T : class
     {
         protected readonly DbContext _Context;
         protected readonly bool IsUnitOfWork;
 
-        public Repository(DbContext context, bool isUnitOfWork)
+        public Repository(DbContext context = null, bool isUnitOfWork = false)
         {
             this._Context = context;
             this.IsUnitOfWork = isUnitOfWork;
@@ -32,14 +32,12 @@ namespace SignalR.DAL
         {
             return await _Context.Set<T>().ToListAsync();
         }
-        public async Task<T> GetById(int id)
-        {
-            return await _Context.Set<T>().FindAsync(id);
-        }
-        public bool Add(T entity)
+        
+        public T Add(T entity)
         {
             _Context.Add(entity);
-            return Save();
+            Save();
+            return entity;
         }
         public bool Delete(int id)
         {

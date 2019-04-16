@@ -4469,6 +4469,10 @@
       "SignalR.Helpers/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "2.2.0",
+          "Microsoft.Extensions.Configuration.Json": "2.2.0"
+        },
         "compile": {
           "bin/placeholder/SignalR.Helpers.dll": {}
         },

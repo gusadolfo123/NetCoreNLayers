@@ -12,61 +12,6 @@ namespace SignalR.WebApi.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-
-        protected readonly IRepository<Product> repository;
-
-        public ValuesController(IRepository<Product> repo)
-        {
-            repository = repo;
-            repository.Add(new Product
-            {
-                ProductName = "Mouse Razer",
-                UnitPrice = 17000,
-                UnitsInStock = 20,
-                CategoryID = 50
-            });
-            repository.SaveChanges();
-        }
-
-        // GET api/values
-        [HttpGet]
-        public IEnumerable<Product> Get()
-        {
-            var result = repository.GetAll().Result;
-            return result;
-        }
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<Product> Get(int id)
-        {
-            var result = repository.GetById(id).Result;
-            return result;
-        }
-
-        // POST api/values
-        [HttpPost]
-        public Product Post([FromBody] Product product)
-        {
-            var result = repository.Add(product);
-            repository.SaveChanges();
-            return product;
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Product product)
-        {
-            var result = repository.Update(product);
-            repository.SaveChanges();
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-            repository.Delete(id);
-            repository.SaveChanges();
-        }
+        
     }
 }
