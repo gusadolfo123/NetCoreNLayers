@@ -40,7 +40,9 @@
 
             // implementacion identity server 4
             services.AddIdentityServer()
-                .AddDeveloperSigningCredential();
+                .AddDeveloperSigningCredential()
+                .AddInMemoryApiResources()
+                .AddInMemoryClients();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

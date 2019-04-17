@@ -905,7 +905,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "2.2.0",
-          "Microsoft.Extensions.Configuration.Json": "2.2.0"
+          "Microsoft.Extensions.Configuration.Json": "2.2.0",
+          "SignalR.Entities": "1.0.0"
         },
         "compile": {
           "bin/placeholder/SignalR.Helpers.dll": {}
@@ -931,7 +932,7 @@
   },
   "libraries": {
     "Microsoft.EntityFrameworkCore/2.2.3": {
-      "sha512": "0VOFOuIMLE3ZA9yAWPbEe48pe+3pFi1CmyI4bh6rLtdTgCa5fa5TWqsbDCeZl13rjSoENPuOq6InYGSiKTR0+g==",
+      "sha512": "GUiOOYMUiaXK6G/RqgBgI2NsHJLKSFrHuOVnpXQrC7VgmFGG7sFyQmh/j5cMJT5XeGCymNY3wnDlewZ1GEFYJg==",
       "type": "package",
       "path": "microsoft.entityframeworkcore/2.2.3",
       "files": [
@@ -944,7 +945,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Abstractions/2.2.3": {
-      "sha512": "75qgcAJOIJrNtxeYkhQx8O2goAYkb/u7r1tQOk8Xs5YjAf39zkeNfl9QRBS0GIDtffD/wGpq7jJrMS/dN3TUfQ==",
+      "sha512": "89dSjkZmLVnsbIoiQyMDdMBakTrgiY+1mfu4MRfWRX1ysSx+nGfcPPZ8QfRKLq+i7EIqylUNVJSHi7bHTwL9LQ==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.abstractions/2.2.3",
       "files": [
@@ -957,7 +958,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Analyzers/2.2.3": {
-      "sha512": "AktkwwjsxeM5+CUOVKz2E/zQvEyFCaTSokbqJx643pSEckjReIDgCqgUV8rvZsGPpPm/RXIhhOXDrB/a+BEkXA==",
+      "sha512": "+7DQd8xaq1kh2szcVkMJAN4/TvjFt5gK4fIsRHcPvZrc10p9Rhhitd44xGTGs9e0RRVijz0+OVI7jPvKaVfwAQ==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.analyzers/2.2.3",
       "files": [
@@ -969,7 +970,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.InMemory/2.2.3": {
-      "sha512": "KS/VBocwPWlv+wGCyyyPcpHIoQMRxnrE5qzyeR5YLsKDs/fU1MbuQ665M23s6UTmWaSH5YJUbHb8dn2NNMuqdQ==",
+      "sha512": "Xeq3iCAOBHWN5r4LwSRFye9Sq07ylupTUoiOZa+rfOkQCgxZNm12kv0bpj/Juf3Kx2THJh7hqSFeeeyEvKDTfQ==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.inmemory/2.2.3",
       "files": [
@@ -982,7 +983,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/2.2.3": {
-      "sha512": "addZBOfkWf/6ZkWAs/eJMu25iFUiqSHJKmETRfrI2XqzgBZwYgV5DxgmqkhMXgkjZ9prgZ9uD6I6pwQXJTbIqQ==",
+      "sha512": "gwB+FOVqI+lwTl9MCtH5iI6Zfes0JlCDBuxCQ3ngLMzSqFFzgLANmmgA/cl+D2WOZ01TXivpRSzNMrnDfOJljA==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.relational/2.2.3",
       "files": [
@@ -995,7 +996,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.SqlServer/2.2.3": {
-      "sha512": "IeUcuu+Jmj73L0zhNNHy7WUuiM7Dq42Sm9xDub6TCj3nfFhMUR+1XQhzcKTveTRHf6l+0maArEtQ2VU5jvbUZA==",
+      "sha512": "O8eGpT3wDfMz1YHf0h5ph3eW+bkcoqaptqztcNxWyfZ76UJw4j8ohqj7leaDbuZh2W3HIK4O89N3A4a8pHNQ9g==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.sqlserver/2.2.3",
       "files": [
@@ -1264,7 +1265,7 @@
       ]
     },
     "Microsoft.Win32.Registry/4.5.0": {
-      "sha512": "+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
+      "sha512": "vduxuHEqRgRrTE8wYG8Wxj/+6wwzddOmZzjKZx6rFMc/91aUBxI5etAFYxesoNaIja5NpgSTcnk6cN8BeYXf9A==",
       "type": "package",
       "path": "microsoft.win32.registry/4.5.0",
       "files": [
@@ -1543,7 +1544,7 @@
       ]
     },
     "System.Buffers/4.4.0": {
-      "sha512": "Ii2bedd4HVzddupdU35n3ygohUPlNn7MDimBOYcwWNce2NizQ1fCSaQJY1Tzv80aMqOGpVcU4wZr/Xe50xcTwg==",
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
       "type": "package",
       "path": "system.buffers/4.4.0",
       "files": [
@@ -2338,7 +2339,7 @@
       ]
     },
     "System.Numerics.Vectors/4.4.0": {
-      "sha512": "gdRrUJs1RrjW3JB5p82hYjA67xoeFLvh0SdSIWjTiN8qExlbFt/RtXwVYNc5BukJ/f9OKzQQS6gakzbJeHTqHg==",
+      "sha512": "UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
       "type": "package",
       "path": "system.numerics.vectors/4.4.0",
       "files": [
@@ -3042,7 +3043,7 @@
       ]
     },
     "System.Security.AccessControl/4.5.0": {
-      "sha512": "vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "sha512": "6RQtcT+TyDgLUFsAnmmdfRRGdLYKxSZGkSPOd052tvYFxOTMaQb6ANlwhGqZtNO52PosaCoXu7uatFneujAxmA==",
       "type": "package",
       "path": "system.security.accesscontrol/4.5.0",
       "files": [
@@ -3084,7 +3085,7 @@
       ]
     },
     "System.Security.Permissions/4.5.0": {
-      "sha512": "9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
+      "sha512": "vDQ7q30Soe0a1cPhvxn+7IFmMeTG5IP+hTQrnKQDjTNpD2epqwbZSzMM2Git5TXBr4Kwwhc/0SEtJY0qPoiegA==",
       "type": "package",
       "path": "system.security.permissions/4.5.0",
       "files": [
@@ -3105,7 +3106,7 @@
       ]
     },
     "System.Security.Principal.Windows/4.5.0": {
-      "sha512": "U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "sha512": "hs2zF4tOQ3V4iQttVnLrnR/i8AOrrAgu2Gmp4/jNaE/+5hiZWDj20FK/m/OW3Itdi9XDvqf55WzHkiWYtOSUNg==",
       "type": "package",
       "path": "system.security.principal.windows/4.5.0",
       "files": [
@@ -3215,7 +3216,7 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.5.0": {
-      "sha512": "S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
+      "sha512": "16EVkWmNnoH3/Yj9c5s5VuLK5Uv/Dnkc3P2kMmnD7wJcUuvcHVvM2IhVJanf2hHRZUitH+cIkPCPHrBoCXc7Rw==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.5.0",
       "files": [
@@ -3429,23 +3430,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\morenoga\\.nuget\\packages\\": {},
+    "C:\\Users\\GUSAD\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Core\\SignalR.BLL\\SignalR.BLL.csproj",
+      "projectUniqueName": "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Core\\SignalR.BLL\\SignalR.BLL.csproj",
       "projectName": "SignalR.BLL",
-      "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Core\\SignalR.BLL\\SignalR.BLL.csproj",
-      "packagesPath": "C:\\Users\\morenoga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Core\\SignalR.BLL\\obj\\",
+      "projectPath": "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Core\\SignalR.BLL\\SignalR.BLL.csproj",
+      "packagesPath": "C:\\Users\\GUSAD\\.nuget\\packages\\",
+      "outputPath": "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Core\\SignalR.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\morenoga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GUSAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3458,14 +3459,14 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Core\\SignalR.Entities\\SignalR.Entities.csproj": {
-              "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Core\\SignalR.Entities\\SignalR.Entities.csproj"
+            "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Core\\SignalR.Entities\\SignalR.Entities.csproj": {
+              "projectPath": "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Core\\SignalR.Entities\\SignalR.Entities.csproj"
             },
-            "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Infrastructure\\SignalR.Services\\SignalR.Services.csproj": {
-              "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Infrastructure\\SignalR.Services\\SignalR.Services.csproj"
+            "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Infrastructure\\SignalR.Services\\SignalR.Services.csproj": {
+              "projectPath": "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Infrastructure\\SignalR.Services\\SignalR.Services.csproj"
             },
-            "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Persistence\\SignalR.DAL\\SignalR.DAL.csproj": {
-              "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Persistence\\SignalR.DAL\\SignalR.DAL.csproj"
+            "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Persistence\\SignalR.DAL\\SignalR.DAL.csproj": {
+              "projectPath": "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Persistence\\SignalR.DAL\\SignalR.DAL.csproj"
             }
           }
         }

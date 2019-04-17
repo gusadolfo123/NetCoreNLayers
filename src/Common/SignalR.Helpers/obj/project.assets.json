@@ -185,6 +185,16 @@
         "runtime": {
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
+      },
+      "SignalR.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SignalR.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SignalR.Entities.dll": {}
+        }
       }
     }
   },
@@ -480,7 +490,7 @@
       ]
     },
     "System.Buffers/4.4.0": {
-      "sha512": "Ii2bedd4HVzddupdU35n3ygohUPlNn7MDimBOYcwWNce2NizQ1fCSaQJY1Tzv80aMqOGpVcU4wZr/Xe50xcTwg==",
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
       "type": "package",
       "path": "system.buffers/4.4.0",
       "files": [
@@ -530,7 +540,7 @@
       ]
     },
     "System.Numerics.Vectors/4.4.0": {
-      "sha512": "gdRrUJs1RrjW3JB5p82hYjA67xoeFLvh0SdSIWjTiN8qExlbFt/RtXwVYNc5BukJ/f9OKzQQS6gakzbJeHTqHg==",
+      "sha512": "UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
       "type": "package",
       "path": "system.numerics.vectors/4.4.0",
       "files": [
@@ -596,33 +606,39 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "SignalR.Entities/1.0.0": {
+      "type": "project",
+      "path": "../../Core/SignalR.Entities/SignalR.Entities.csproj",
+      "msbuildProject": "../../Core/SignalR.Entities/SignalR.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Microsoft.Extensions.Configuration.Binder >= 2.2.0",
       "Microsoft.Extensions.Configuration.Json >= 2.2.0",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "SignalR.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\morenoga\\.nuget\\packages\\": {},
+    "C:\\Users\\GUSAD\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Common\\SignalR.Helpers\\SignalR.Helpers.csproj",
+      "projectUniqueName": "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Common\\SignalR.Helpers\\SignalR.Helpers.csproj",
       "projectName": "SignalR.Helpers",
-      "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Common\\SignalR.Helpers\\SignalR.Helpers.csproj",
-      "packagesPath": "C:\\Users\\morenoga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Common\\SignalR.Helpers\\obj\\",
+      "projectPath": "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Common\\SignalR.Helpers\\SignalR.Helpers.csproj",
+      "packagesPath": "C:\\Users\\GUSAD\\.nuget\\packages\\",
+      "outputPath": "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Common\\SignalR.Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\morenoga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GUSAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -634,7 +650,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Core\\SignalR.Entities\\SignalR.Entities.csproj": {
+              "projectPath": "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Core\\SignalR.Entities\\SignalR.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
