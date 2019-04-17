@@ -12,7 +12,7 @@
     {
         public Area Create(Area area)
         {
-            using (var repository = RepositoryFactory<Area>.GetRepository())
+            using (var repository = RepositoryFactory<Area>.GetRepositorySqlServer())
             {
                 return repository.Add(area);
             }
@@ -20,7 +20,7 @@
 
         public bool Delete(int areaID)
         {
-            using (var repository = RepositoryFactory<Area>.GetRepository())
+            using (var repository = RepositoryFactory<Area>.GetRepositorySqlServer())
             {
                 return repository.Delete(areaID);
             }
@@ -28,7 +28,7 @@
 
         public bool DeleteWithLog(int areaID)
         {
-            using (var repository = RepositoryFactory<Area>.GetRepository())
+            using (var repository = RepositoryFactory<Area>.GetRepositorySqlServer())
             {
                 return repository.Delete(areaID);
             }
@@ -36,7 +36,7 @@
          
         public Task<IEnumerable<Area>> GetBy(QueryParameters<Area> queryParameters = null)
         {
-            using (var repository = RepositoryFactory<Area>.GetRepository())
+            using (var repository = RepositoryFactory<Area>.GetRepositorySqlServer())
             {
                 return repository.GetByFilter(queryParameters);
             }
@@ -44,7 +44,7 @@
 
         public bool Update(Area area)
         {
-            using (var repository = RepositoryFactory<Area>.GetRepository())
+            using (var repository = RepositoryFactory<Area>.GetRepositorySqlServer())
             {
                 return repository.Update(area);
             }

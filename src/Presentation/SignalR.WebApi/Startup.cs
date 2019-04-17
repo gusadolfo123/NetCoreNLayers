@@ -17,6 +17,7 @@
     using SignalR.DAL;
     using SignalR.Services;
     using SignalR.BLL;
+    using SignalR.Helpers;
 
     public class Startup
     {
@@ -41,8 +42,8 @@
             // implementacion identity server 4
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
-                .AddInMemoryApiResources()
-                .AddInMemoryClients();
+                .AddInMemoryApiResources(IdentityConfig.GetApiResources()) // se asignan los recursos
+                .AddInMemoryClients(IdentityConfig.GetClients()); // se asignan los clientes que tendran permiso en la aplicacion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,12 +59,11 @@
                 app.UseHsts();
             }
 
+            // uso del identity server 4
+            app.UseIdentityServer();
+
             app.UseHttpsRedirection();
             app.UseMvc();
-
-            // uso del identity server 4
-            app.
-
         }
     }
 }

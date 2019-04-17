@@ -7,9 +7,24 @@
 
     public static class RepositoryFactory<T> where T : class
     {
-        public static IRepository<T> GetRepository(bool isUnitOfWork = false)
+        /// <summary>
+        /// Metodo encargado de crear instancia de una clase que implemente la interfaz IRepository<T> con proveedor Sql Server
+        /// </summary>
+        /// <param name="isUnitOfWork"></param>
+        /// <returns></returns>
+        public static IRepository<T> GetRepositorySqlServer(bool isUnitOfWork = false) 
         {
-            return new Repository<T>(isUnitOfWork);
+            return new RepositorySqlServer<T>(isUnitOfWork); 
+        }
+
+        /// <summary>
+        /// Metodo encargado de crear instancia de una clase que implemente la interfaz IRepository<T> con proveedor Oracle
+        /// </summary>
+        /// <param name="isUnitOfWork"></param>
+        /// <returns></returns>
+        public static IRepository<T> GetRepositoryOracle(bool isUnitOfWork = false)
+        {
+            return null;
         }
     }
 }

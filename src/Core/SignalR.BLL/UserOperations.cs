@@ -12,7 +12,7 @@
     {
         public User Create(User user)
         {
-            using (var repository = RepositoryFactory<User>.GetRepository())
+            using (var repository = RepositoryFactory<User>.GetRepositorySqlServer())
             {
                 return repository.Add(user);
             }
@@ -20,7 +20,7 @@
 
         public bool Delete(int userID)
         {
-            using (var repository = RepositoryFactory<User>.GetRepository())
+            using (var repository = RepositoryFactory<User>.GetRepositorySqlServer())
             {
                 return repository.Delete(userID);
             }
@@ -28,7 +28,7 @@
 
         public bool DeleteWithLog(int userID)
         {
-            using (var repository = RepositoryFactory<User>.GetRepository())
+            using (var repository = RepositoryFactory<User>.GetRepositorySqlServer())
             {
                 return repository.Delete(userID);
             }
@@ -36,7 +36,7 @@
 
         public Task<IEnumerable<User>> GetBy(QueryParameters<User> queryParameters = null)
         {
-            using (var repository = RepositoryFactory<User>.GetRepository())
+            using (var repository = RepositoryFactory<User>.GetRepositorySqlServer())
             {
                 return repository.GetByFilter(queryParameters);
             }
@@ -44,7 +44,7 @@
 
         public bool Update(User user)
         {
-            using (var repository = RepositoryFactory<User>.GetRepository())
+            using (var repository = RepositoryFactory<User>.GetRepositorySqlServer())
             {
                 return repository.Update(user);
             }

@@ -10,25 +10,29 @@ namespace SignalR.DAL
     using SignalR.Entities;
 
     /// <summary>
-    /// Implementacion Servicio Repositorio para manejo de acceso a datos mediante EntityFramework
+    /// Implementacion Servicio Repositorio para manejo de acceso a datos mediante EntityFramework con proveedor SqlServer
     /// </summary>
     /// <typeparam name="T">Tipo de entidad a la cual realizar las operaciones</typeparam>
-    public class Repository<T> : IRepository<T> where T : class
+    public class RepositorySqlServer<T> : IRepository<T> where T : class
     {
+        #region Propiedades
         protected readonly DbContext _Context;
         protected readonly bool IsUnitOfWork;
+        #endregion
 
-        public Repository(bool isUnitOfWork = false)
+        #region Constructores
+        public RepositorySqlServer(bool isUnitOfWork = false)
         {
             this._Context = new SignalRContext();
             this.IsUnitOfWork = isUnitOfWork;
         }
+        #endregion
 
+        #region Metodos con las Operaciones del Repositorio
         public async Task<IEnumerable<T>> GetAll()
         {
             return await _Context.Set<T>().ToListAsync();
         }
-        
         public T Add(T entity)
         {
             _Context.Add(entity);
@@ -65,7 +69,6 @@ namespace SignalR.DAL
 
             return list;
         }
-
         public int SaveChanges()
         {
             var result = 0;
@@ -84,7 +87,6 @@ namespace SignalR.DAL
             }
             return result;
         }
-
         private bool Save() 
         {
             int changes = 0;
@@ -95,10 +97,10 @@ namespace SignalR.DAL
 
             return changes == 1;
         }
-
         public void Dispose()
         {
             _Context.Dispose();
         }
+        #endregion
     }
 }

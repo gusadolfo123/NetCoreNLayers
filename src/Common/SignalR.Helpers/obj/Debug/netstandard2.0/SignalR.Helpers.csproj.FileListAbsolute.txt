@@ -7,3 +7,6 @@ C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.dll
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.pdb
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.csprojAssemblyReference.cache
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\bin\Debug\netstandard2.0\SignalR.Entities.dll
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\bin\Debug\netstandard2.0\SignalR.Entities.pdb
+C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.csproj.CopyComplete

@@ -1,20 +1,44 @@
-﻿using SignalR.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SignalR.Helpers
+﻿namespace SignalR.Helpers
 {
+    using IdentityServer4.Models;
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
     public static class IdentityConfig
     {
-        public static IEnumerable<User> GetUsers()
+        public static IEnumerable<Client> GetClients()
         {
-            return new List<User>
+            return new List<Client> 
             {
-                new User
+                new Client
                 {
-                    FirstName: 
+                    ClientId = "Cliente1",
+                    AllowedGrantTypes = GrantTypes.ClientCredentials, // acceso del cliente mediante credenciales
+                    ClientSecrets =
+                    {
+                        new Secret("KeySecret".Sha256()) // clave que se le da al cliente para que se conecte
+                    },
+                    AllowedScopes = { "resourceApi1" } // el cliente solo tiene acceso a el recurso resourceApi1
+                },
+                new Client
+                {
+                    ClientId = "Cliente2",
+                    AllowedGrantTypes = GrantTypes.ClientCredentials, // acceso del cliente mediante credenciales
+                    ClientSecrets =
+                    {
+                        new Secret("KeySecret".Sha256()) // clave que se le da al cliente para que se conecte
+                    },
+                    AllowedScopes = { "resourceApi1" } // el cliente solo tiene acceso a el recurso resourceApi1
                 }
+            };
+        }
+
+        public static  IEnumerable<ApiResource> GetApiResources()
+        {
+            return new List<ApiResource>
+            {
+                new ApiResource("resourceApi1", "Primer Recurso de Prueba")
             };
         }
     }

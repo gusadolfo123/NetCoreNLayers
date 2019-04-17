@@ -179,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GUSAD\\.nuget\\packages\\": {},
+    "C:\\Users\\morenoga\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Core\\SignalR.Entities\\SignalR.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Core\\SignalR.Entities\\SignalR.Entities.csproj",
       "projectName": "SignalR.Entities",
-      "projectPath": "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Core\\SignalR.Entities\\SignalR.Entities.csproj",
-      "packagesPath": "C:\\Users\\GUSAD\\.nuget\\packages\\",
-      "outputPath": "D:\\Desarrollo Cursos\\Proyecto_HelpDesk\\NetCoreNLayers\\src\\Core\\SignalR.Entities\\obj\\",
+      "projectPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Core\\SignalR.Entities\\SignalR.Entities.csproj",
+      "packagesPath": "C:\\Users\\morenoga\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\morenoga\\Documents\\Practicas\\SignalR-VSC\\src\\Core\\SignalR.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\GUSAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\morenoga\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
