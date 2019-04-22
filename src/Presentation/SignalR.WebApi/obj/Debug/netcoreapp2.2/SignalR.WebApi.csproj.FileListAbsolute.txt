@@ -24,3 +24,29 @@ C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Presentation\SignalR.WebAp
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.BLL.dll
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.BLL.pdb
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\App.json
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\App.json
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.WebApi.deps.json
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.WebApi.runtimeconfig.json
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.WebApi.runtimeconfig.dev.json
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.WebApi.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.WebApi.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.BLL.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.DAL.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.Entities.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.Helpers.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.Services.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.BLL.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.Entities.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.Services.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.DAL.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\bin\Debug\netcoreapp2.2\SignalR.Helpers.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\obj\Debug\netcoreapp2.2\SignalR.WebApi.csprojAssemblyReference.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\obj\Debug\netcoreapp2.2\SignalR.WebApi.csproj.CoreCompileInputs.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\obj\Debug\netcoreapp2.2\SignalR.WebApi.RazorAssemblyInfo.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\obj\Debug\netcoreapp2.2\SignalR.WebApi.RazorAssemblyInfo.cs
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\obj\Debug\netcoreapp2.2\SignalR.WebApi.AssemblyInfoInputs.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\obj\Debug\netcoreapp2.2\SignalR.WebApi.AssemblyInfo.cs
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\obj\Debug\netcoreapp2.2\SignalR.WebApi.RazorTargetAssemblyInfo.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\obj\Debug\netcoreapp2.2\SignalR.WebApi.csproj.CopyComplete
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\obj\Debug\netcoreapp2.2\SignalR.WebApi.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Presentation\SignalR.WebApi\obj\Debug\netcoreapp2.2\SignalR.WebApi.pdb

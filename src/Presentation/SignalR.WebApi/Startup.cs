@@ -32,6 +32,16 @@
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            //services.AddMvcCore()
+            //    .AddAuthorization()
+            //    .AddJsonFormatters();
+
+            //services.AddAuthentication("Bearer")
+            //    .AddIdentityServerAuthentication(option => {
+            //        option.Authority = "http://localhost:44344";
+            //        option.RequireHttpsMetadata = true;
+            //        option.ApiName = "resourceApi1";
+            //    });
 
             // services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddSingleton(typeof(IAreaOperations), OperarionsFactory.GetAreaOperations());
@@ -40,10 +50,10 @@
             services.AddSingleton(typeof(IUserOperations), OperarionsFactory.GetUserOperations());
 
             // implementacion identity server 4
-            services.AddIdentityServer()
-                .AddDeveloperSigningCredential()
-                .AddInMemoryApiResources(IdentityConfig.GetApiResources()) // se asignan los recursos
-                .AddInMemoryClients(IdentityConfig.GetClients()); // se asignan los clientes que tendran permiso en la aplicacion
+            //services.AddIdentityServer()
+            //    .AddDeveloperSigningCredential()
+            //    .AddInMemoryApiResources(IdentityConfig.GetApiResources()) // se asignan los recursos
+            //    .AddInMemoryClients(IdentityConfig.GetClients()); // se asignan los clientes que tendran permiso en la aplicacion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,7 +70,9 @@
             }
 
             // uso del identity server 4
-            app.UseIdentityServer();
+            // app.UseIdentityServer();
+
+            // app.UseAuthentication();
 
             app.UseHttpsRedirection();
             app.UseMvc();

@@ -6,3 +6,12 @@ C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.Entities\obj\
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.AssemblyInfo.cs
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.dll
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.Entities\bin\Debug\netstandard2.0\SignalR.Entities.deps.json
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.Entities\bin\Debug\netstandard2.0\SignalR.Entities.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.Entities\bin\Debug\netstandard2.0\SignalR.Entities.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.csprojAssemblyReference.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.csproj.CoreCompileInputs.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.AssemblyInfoInputs.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.AssemblyInfo.cs
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.Entities\obj\Debug\netstandard2.0\SignalR.Entities.pdb

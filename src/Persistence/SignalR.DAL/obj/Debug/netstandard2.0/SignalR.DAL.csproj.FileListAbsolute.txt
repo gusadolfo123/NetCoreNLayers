@@ -14,3 +14,19 @@ C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\ob
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.csproj.CopyComplete
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.dll
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.DAL.deps.json
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.DAL.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.DAL.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.Entities.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.Helpers.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.Services.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.Entities.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.Helpers.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\bin\Debug\netstandard2.0\SignalR.Services.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.csprojAssemblyReference.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.csproj.CoreCompileInputs.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.AssemblyInfoInputs.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.AssemblyInfo.cs
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.csproj.CopyComplete
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Persistence\SignalR.DAL\obj\Debug\netstandard2.0\SignalR.DAL.pdb

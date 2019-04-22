@@ -16,3 +16,21 @@ C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.BLL\obj\Debug
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.BLL\obj\Debug\netstandard2.0\SignalR.BLL.csproj.CopyComplete
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.BLL\obj\Debug\netstandard2.0\SignalR.BLL.dll
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Core\SignalR.BLL\obj\Debug\netstandard2.0\SignalR.BLL.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\bin\Debug\netstandard2.0\SignalR.BLL.deps.json
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\bin\Debug\netstandard2.0\SignalR.BLL.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\bin\Debug\netstandard2.0\SignalR.BLL.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\bin\Debug\netstandard2.0\SignalR.DAL.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\bin\Debug\netstandard2.0\SignalR.Entities.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\bin\Debug\netstandard2.0\SignalR.Helpers.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\bin\Debug\netstandard2.0\SignalR.Services.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\bin\Debug\netstandard2.0\SignalR.DAL.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\bin\Debug\netstandard2.0\SignalR.Entities.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\bin\Debug\netstandard2.0\SignalR.Services.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\bin\Debug\netstandard2.0\SignalR.Helpers.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\obj\Debug\netstandard2.0\SignalR.BLL.csprojAssemblyReference.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\obj\Debug\netstandard2.0\SignalR.BLL.csproj.CoreCompileInputs.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\obj\Debug\netstandard2.0\SignalR.BLL.AssemblyInfoInputs.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\obj\Debug\netstandard2.0\SignalR.BLL.AssemblyInfo.cs
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\obj\Debug\netstandard2.0\SignalR.BLL.csproj.CopyComplete
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\obj\Debug\netstandard2.0\SignalR.BLL.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Core\SignalR.BLL\obj\Debug\netstandard2.0\SignalR.BLL.pdb

@@ -33,11 +33,12 @@ namespace SignalR.DAL
 
             // configuracion base de datos
             optionsBuilder
-                // .UseSqlServer(connectionString)
-                .UseInMemoryDatabase("DBPrueba")
+                .UseSqlServer(connectionString)
+                // .UseInMemoryDatabase("DBPrueba")
                 .UseLoggerFactory(loggerFactory)
                 // .UseQueryTrackingBehavior(QueryTrackingBehavior.TrackAll)
                 .EnableSensitiveDataLogging();
+
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -117,7 +118,8 @@ namespace SignalR.DAL
                 .HasOne(f => f.User)
                 .WithMany(p => p.Comments)
                 .HasForeignKey(p => p.UserID)
-                .HasConstraintName("FK_COMMENT_USER_01");
+                .HasConstraintName("FK_COMMENT_USER_01")
+                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Comment>()
                 .HasOne(f => f.Request)

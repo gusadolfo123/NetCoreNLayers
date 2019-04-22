@@ -10,3 +10,15 @@ C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Ser
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.csproj.CopyComplete
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.dll
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Infrastructure\SignalR.Services\bin\Debug\netstandard2.0\SignalR.Services.deps.json
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Infrastructure\SignalR.Services\bin\Debug\netstandard2.0\SignalR.Services.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Infrastructure\SignalR.Services\bin\Debug\netstandard2.0\SignalR.Services.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Infrastructure\SignalR.Services\bin\Debug\netstandard2.0\SignalR.Entities.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Infrastructure\SignalR.Services\bin\Debug\netstandard2.0\SignalR.Entities.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.csprojAssemblyReference.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.csproj.CoreCompileInputs.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.AssemblyInfoInputs.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.AssemblyInfo.cs
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.csproj.CopyComplete
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Infrastructure\SignalR.Services\obj\Debug\netstandard2.0\SignalR.Services.pdb

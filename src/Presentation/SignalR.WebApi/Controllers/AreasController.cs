@@ -4,6 +4,7 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
     using SignalR.Entities;
@@ -11,6 +12,7 @@
 
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize]
     public class AreasController : ControllerBase
     {
 
@@ -23,9 +25,13 @@
 
         // GET: api/Areas
         [HttpGet]
-        public async Task<IEnumerable<Area>> Get()
+        public async Task<IActionResult> Get()
         {
-            return await Helper.GetBy(new QueryParameters<Area>());
+            var result = await Helper.GetBy(new QueryParameters<Area>());
+            if (result != null)
+                return Ok(result);
+            else
+                return NotFound();
         }
 
         //// GET: api/Areas/5

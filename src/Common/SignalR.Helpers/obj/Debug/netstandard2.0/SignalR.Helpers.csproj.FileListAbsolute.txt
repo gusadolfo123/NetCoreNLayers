@@ -10,3 +10,15 @@ C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\bin\Debug\netstandard2.0\SignalR.Entities.dll
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\bin\Debug\netstandard2.0\SignalR.Entities.pdb
 C:\Users\morenoga\Documents\Practicas\SignalR-VSC\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.csproj.CopyComplete
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Common\SignalR.Helpers\bin\Debug\netstandard2.0\SignalR.Helpers.deps.json
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Common\SignalR.Helpers\bin\Debug\netstandard2.0\SignalR.Helpers.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Common\SignalR.Helpers\bin\Debug\netstandard2.0\SignalR.Helpers.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Common\SignalR.Helpers\bin\Debug\netstandard2.0\SignalR.Entities.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Common\SignalR.Helpers\bin\Debug\netstandard2.0\SignalR.Entities.pdb
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.csprojAssemblyReference.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.csproj.CoreCompileInputs.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.AssemblyInfoInputs.cache
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.AssemblyInfo.cs
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.csproj.CopyComplete
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.dll
+D:\Desarrollo Cursos\Proyecto_HelpDesk\NetCoreNLayers\src\Common\SignalR.Helpers\obj\Debug\netstandard2.0\SignalR.Helpers.pdb
